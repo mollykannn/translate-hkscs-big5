@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <title>HKSCS轉換Big5</title>
+  <link href="dist/css/screen.min.css" rel="stylesheet" />
+</head>
+
+<body>
+  <div class="column">
+    <header>
+      <h1>HKSCS轉換Big5</h1>
+    </header>
+    <section>
+      <hr/>
+      <button class="column--button" onClick="convert_simp();">HKSCS轉換為Big5</button>
+      <button class="column--button" id="copybutton" data-clipboard-target=".column--textarea">複製</button>
+      <button class="column--button" onClick="clearContent();">清除</button>
+      <div class="linebreak--20"></div>
+      <textarea class="column--textarea" id="txtOutput"></textarea>
+    </section>
+    <footer>
+      Created by <a href="https://github.com/mollykannn">Molly Kan</a> <br/>
+      <a href="http://www.cuhkacs.org/~syaoran/blog/">異體字/異形詞轉換</a> By 李小狼
+    </footer>
+  </div>
+  <script src="dist/js/translate-hkscs-big5.min.js"></script>
+  <script src="dist/js/clipboard.min.js"></script>
+  <script src="dist/js/default.min.js"></script>
+</body>
+</html>
