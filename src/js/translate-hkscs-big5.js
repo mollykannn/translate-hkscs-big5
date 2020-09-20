@@ -26,9 +26,8 @@ Creative Commons : by 3.0 (http://creativecommons.org/licenses/by/3.0/)
 （簡體中文：知識共享：署名 3.0 (http://creativecommons.org/licenses/by/3.0/deed.zh)；
 　繁體中文：創用CC：姓名標示 3.0 (http://creativecommons.org/licenses/by/3.0/deed.zh_TW) ）
 ***********************************/
-/*** 此 JS 檔經過修改 (https://github.com/mollykannn/translate-big5-gbk.git) ***/
 
-var TongWen = {
+var Big5 = {
   "\u51E2":"\u51E1",
   "\u4E12":"\u4E11",
   "\u5B82":"\u5197",
@@ -264,10 +263,4 @@ var TongWen = {
   "\u9C49":"\u9C49"
 };
 
-function convert_simp(){
-  var curDoc = document.getElementById("txtOutput");
-  var zhmap = TongWen;
-  for (var i=0; i <= curDoc.value.length; i++) {
-    curDoc.value = curDoc.value.replace(/[^\x00-\xFF]/g, function(s){ return ((s in zhmap)?zhmap[s]:s);});
-  }
-}
+export default Big5

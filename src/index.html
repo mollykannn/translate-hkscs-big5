@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="author" content="Molly Kan" />
+    <meta name="description" content="HKSCS轉換Big5" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+    <!-- Facebook -->
+    <meta property="og:title" content="HKSCS轉換Big5" />
+    <meta property="og:type" content="website" />
+    <meta property="og:description" content="HKSCS轉換Big5" />
+    <meta property="og:url" content="https://mollykannn.github.io/translate-hkscs-big5" />
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="HKSCS轉換Big5" />
+    <meta name="twitter:creator" content="Molly Kan" />
+    <title>HKSCS轉換Big5</title>
+    <!-- Google Chrome color -->
+    <meta name="theme-color" content="#03a9f4" />
+  </head>
+
+<body>
+  <div class="column">
+    <header>
+      <h1>HKSCS轉換Big5</h1>
+    </header>
+    <section>
+      <hr/>
+      <button class="column--button" onclick="convertBig5();">HKSCS轉換為Big5</button>
+      <button class="column--button column--copyButton" data-clipboard-target="#textOutput" title="複製成功">複製</button>
+      <button class="column--button" onclick="clearContent();">清除</button>
+      <div class="linebreak--20"></div>
+      <textarea class="column--textarea" id="textOutput"></textarea>
+    </section>
+    <footer>
+      Created by <a href="https://github.com/mollykannn">Molly Kan</a> <br/>
+      <a href="http://www.cuhkacs.org/~syaoran/blog/">異體字/異形詞轉換</a> By 李小狼
+    </footer>
+  </div>
+</body>
+</html>
