@@ -1,15 +1,4 @@
-import "../css/style.scss";
-import ClipboardJS from "clipboard";
 import Big5Text from "./translate-hkscs-big5.js";
-
-const clipboardButton = new ClipboardJS(".column--copyButton");
-clipboardButton.on("success", function (e) {
-  e.clearSelection();
-});
-
-window.clearContent = function () {
-  document.getElementById("textOutput").value = "";
-};
 
 window.convertBig5 = function () {
   let curDoc = document.getElementById("textOutput");
