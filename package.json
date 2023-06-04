@@ -21,6 +21,6 @@
     "vite": "^2.9.14",
     "vite-plugin-pwa": "^0.12.7",
     "workbox-precaching": "^7.0.0",
-    "workbox-window": "^6.5.4"
+    "workbox-window": "^6.6.0"
   }
 }
