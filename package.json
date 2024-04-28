@@ -20,7 +20,7 @@
     "stylelint-scss": "^5.3.2",
     "vite": "^2.9.18",
     "vite-plugin-pwa": "^0.12.7",
-    "workbox-precaching": "^7.0.0",
+    "workbox-precaching": "^7.1.0",
     "workbox-window": "^6.6.0"
   }
 }
