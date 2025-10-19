@@ -19,7 +19,7 @@
     "stylelint-order": "^6.0.4",
     "stylelint-scss": "^6.12.1",
     "vite": "^7.1.10",
-    "vite-plugin-pwa": "^1.0.3",
+    "vite-plugin-pwa": "^1.1.0",
     "workbox-precaching": "^7.3.0",
     "workbox-window": "^7.3.0"
   }
